@@ -3,7 +3,11 @@ package base;
 
 
 public class Program extends BaseClassCreation {
+	public static void method1() {
+		System.out.println("Method 1");
+	}
 	public static void main(String[] args) {
+		method1();
 		BaseClassCreation base=new BaseClassCreation();
 		base.getdriver("chrome");
 		base.getUrl("https://adactinhotelapp.com/");
